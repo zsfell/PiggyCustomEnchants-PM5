@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/zsfell/PiggyCustomEnchants-PM5
+build-by-default: true
+branches:
+- main
+projects:
+  PiggyCustomEnchants-PM5:
+    path: ""
+...
