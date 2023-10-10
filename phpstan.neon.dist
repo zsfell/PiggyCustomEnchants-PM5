@@ -1,0 +1,15 @@
+parameters:
+  paths:
+    - /source/src
+  level: 7
+  bootstrapFiles:
+    - phar:///pocketmine/PocketMine-MP.phar/vendor/autoload.php
+  scanDirectories:
+    - phar:///source/vendor/FormsUI.phar/src/
+    - phar:///source/vendor/Commando.phar/src/
+    - phar:///source/vendor/libPiggyUpdateChecker.phar/src/
+    - phar:///source/vendor/Customies.phar/src/
+  excludePaths:
+    analyse:
+      - source/vendor
+  checkMissingIterableValueType: false
