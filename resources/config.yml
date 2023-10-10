@@ -1,0 +1,35 @@
+# Specifies the color enchants are shown depending on rarity
+# Options: black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, and white
+rarity-colors:
+  common: yellow
+  uncommon: blue
+  rare: gold
+  mythic: light_purple
+enchants:
+  # Specifies the location enchants are shown. Options: name, lore
+  position: "name"
+  # Toggles roman numerals for displaying enchantment levels
+  roman-numerals: true
+  # Toggles PiggyCE enchantment books
+  books: true
+# Toggles forms for /ce command
+forms:
+  enabled: false
+# What enchants to disable ENTIRELY
+disabled-enchants: []
+# What enchants to disable in specific worlds
+per-world-disabled-enchants:
+  NoJetpackWorld:
+    - "jetpack"
+# If enabled, will check a list of extremely problematic enchantments on your version of the plugin to be disabled
+# We will ONLY remotely disable enchantments that are extremely problematic / major exploits and this functionality will not be abused in any way
+# Please update your plugin to the latest version (if available) if an enchantment on your version was disabled
+# Gist: https://gist.github.com/DaPigGuy/9c65a998bc0aa8d6b4708796110f7d11
+remote-disable: true
+# Whether or not an enchant damages world
+world-damage:
+  blaze: true
+  bombardment: true
+  lightning: true
+  missile: true
+  self-destruct: true
